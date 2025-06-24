@@ -1,0 +1,3484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.0366225839267548" branch-rate="0.00432152117545376" lines-covered="144" lines-valid="3932" branches-covered="10" branches-valid="2314" complexity="2739" version="0" timestamp="1750777682">
+  <sources />
+  <packages>
+    <package name="Dapper" line-rate="0" branch-rate="0" complexity="2647">
+      <classes>
+        <class name="Dapper.BasicWrappedReader" filename="/_/Dapper/WrappedReader.cs" line-rate="1" branch-rate="1" complexity="37">
+          <methods>
+            <method name="Dapper.IWrappedDataReader.get_Reader" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Dapper.IWrappedDataReader.get_Command" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataReader.Close" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataReader.get_Depth" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataReader.GetSchemaTable" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataReader.get_IsClosed" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataReader.NextResult" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataReader.Read" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataReader.get_RecordsAffected" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.IDisposable.Dispose" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.get_FieldCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetBoolean" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetByte" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetBytes" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetChar" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetChars" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetData" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetDataTypeName" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetDateTime" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetDecimal" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetDouble" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetFieldType" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetFloat" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetGuid" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetInt16" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetInt32" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetInt64" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetName" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetOrdinal" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetString" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetValue" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.GetValues" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.IsDBNull" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.get_Item" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Data.IDataRecord.get_Item" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.CommandDefinition" filename="/_/Dapper/CommandDefinition.cs" line-rate="1" branch-rate="1" complexity="48">
+          <methods>
+            <method name="ForCallback" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="OnCompleted" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="get_CommandText" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Parameters" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Transaction" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_CommandTimeout" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_CommandType" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Buffered" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_AddToCache" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Flags" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Pipelined" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_CancellationToken" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="SetupCommand" signature="(...)" line-rate="1" branch-rate="1" complexity="12">
+              <lines />
+            </method>
+            <method name="GetInit" signature="(...)" line-rate="1" branch-rate="1" complexity="12">
+              <lines />
+            </method>
+            <method name="GetBasicPropertySetter" signature="(...)" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.CustomPropertyTypeMap" filename="/_/Dapper/CustomPropertyTypeMap.cs" line-rate="1" branch-rate="1" complexity="9">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="FindConstructor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="FindExplicitConstructor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetConstructorParameter" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetMember" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.DataTableHandler" filename="/_/Dapper/DataTableHandler.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Parse" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="SetValue" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.DbString" filename="/_/Dapper/DbString.cs" line-rate="1" branch-rate="1" complexity="31">
+          <methods>
+            <method name="get_IsAnsiDefault" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_IsAnsiDefault" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_IsAnsi" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_IsAnsi" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_IsFixedLength" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_IsFixedLength" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Length" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_Length" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Value" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_Value" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="AddParameter" signature="(...)" line-rate="1" branch-rate="1" complexity="20">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.DbWrappedReader" filename="/_/Dapper/WrappedReader.cs" line-rate="1" branch-rate="1" complexity="54">
+          <methods>
+            <method name="Dapper.IWrappedDataReader.get_Reader" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Dapper.IWrappedDataReader.get_Command" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_HasRows" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Close" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetSchemaTable" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="InitializeLifetimeService" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Depth" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_IsClosed" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="NextResult" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Read" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_RecordsAffected" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Dispose" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="get_FieldCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetBoolean" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetByte" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetBytes" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetChar" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetChars" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetDataTypeName" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetDateTime" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetDecimal" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetDouble" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetFieldType" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetFloat" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetGuid" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetInt16" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetInt32" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetInt64" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetName" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetOrdinal" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetString" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetValue" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetValues" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="IsDBNull" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Item" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Item" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetFieldValue&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetFieldValueAsync&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetEnumerator" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetProviderSpecificFieldType" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetProviderSpecificValue" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetProviderSpecificValues" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetStream" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetTextReader" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="IsDBNullAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="NextResultAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_VisibleFieldCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetDbDataReader" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.DefaultTypeMap" filename="/_/Dapper/DefaultTypeMap.cs" line-rate="1" branch-rate="1" complexity="82">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="GetPropertySetter" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="GetSettableProps" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetSettableFields" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="FindConstructor" signature="(...)" line-rate="1" branch-rate="1" complexity="38">
+              <lines />
+            </method>
+            <method name="FindExplicitConstructor" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="GetConstructorParameter" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetMember" signature="(...)" line-rate="1" branch-rate="1" complexity="28">
+              <lines />
+            </method>
+            <method name="get_MatchNamesWithUnderscores" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_MatchNamesWithUnderscores" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Properties" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.DisposedReader" filename="/_/Dapper/WrappedReader.cs" line-rate="1" branch-rate="1" complexity="51">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Depth" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_FieldCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_IsClosed" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_HasRows" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_RecordsAffected" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_VisibleFieldCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ThrowDisposed&lt;T&gt;" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Close" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetSchemaTable" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="InitializeLifetimeService" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Dispose" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetBoolean" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetBytes" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetFloat" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetInt16" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetByte" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetChar" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetChars" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetDataTypeName" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetDateTime" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetDbDataReader" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetDecimal" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetDouble" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetEnumerator" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetFieldType" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetFieldValue&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetFieldValueAsync&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetGuid" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetInt32" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetInt64" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetName" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetOrdinal" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetProviderSpecificFieldType" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetProviderSpecificValue" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetProviderSpecificValues" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetStream" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetString" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetTextReader" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetValue" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetValues" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="IsDBNull" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="IsDBNullAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="NextResult" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Read" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="NextResultAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Item" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Item" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.DisposedReader.&lt;ThrowDisposedAsync&gt;d__15&lt;T&gt;" filename="/_/Dapper/WrappedReader.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.DynamicParameters" filename="/_/Dapper/DynamicParameters.cs" line-rate="1" branch-rate="1" complexity="154">
+          <methods>
+            <method name="Dapper.SqlMapper.IParameterLookup.get_Item" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="AddDynamicParams" signature="(...)" line-rate="1" branch-rate="1" complexity="20">
+              <lines />
+            </method>
+            <method name="Add" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="Add" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="Clean" signature="(...)" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+            <method name="Dapper.SqlMapper.IDynamicParameters.AddParameters" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_RemoveUnused" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_RemoveUnused" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="AddParameters" signature="(...)" line-rate="1" branch-rate="1" complexity="60">
+              <lines />
+            </method>
+            <method name="get_ParameterNames" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="Get&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name="Output&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="40">
+              <lines />
+            </method>
+            <method name="Dapper.SqlMapper.IParameterCallbacks.OnCompleted" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.DynamicParameters.&lt;&gt;c__DisplayClass22_0&lt;T&gt;" filename="/_/Dapper/DynamicParameters.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods />
+          <lines />
+        </class>
+        <class name="Dapper.DynamicParameters.CachedOutputSetters&lt;T&gt;" filename="/_/Dapper/DynamicParameters.CachedOutputSetters.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.DynamicParameters.ParamInfo" filename="/_/Dapper/DynamicParameters.ParamInfo.cs" line-rate="1" branch-rate="1" complexity="22">
+          <methods>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_Name" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Value" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_Value" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_ParameterDirection" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_ParameterDirection" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_DbType" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_DbType" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Size" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_Size" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_AttachedParam" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_AttachedParam" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_OutputCallback" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_OutputCallback" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_OutputTarget" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_OutputTarget" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_CameFromTemplate" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_CameFromTemplate" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Precision" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_Precision" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Scale" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_Scale" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.Extensions" filename="/_/Dapper/Extensions.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="CastResult&lt;TFrom, TTo&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="OnTaskCompleted&lt;TFrom, TTo&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.FeatureSupport" filename="/_/Dapper/FeatureSupport.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="Get" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Arrays" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SimpleMemberMap" filename="/_/Dapper/SimpleMemberMap.cs" line-rate="1" branch-rate="1" complexity="26">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="get_ColumnName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_MemberType" signature="()" line-rate="1" branch-rate="1" complexity="10">
+              <lines />
+            </method>
+            <method name="get_Property" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Field" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Parameter" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlDataRecordHandler&lt;T&gt;" filename="/_/Dapper/SqlDataRecordHandler.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Parse" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="SetValue" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlDataRecordListTVPParameter&lt;T&gt;" filename="/_/Dapper/SqlDataRecordListTVPParameter.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Dapper.SqlMapper.ICustomQueryParameter.AddParameter" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Set" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper" filename="/_/Dapper/SqlMapper.Async.cs" line-rate="1" branch-rate="1" complexity="202">
+          <methods>
+            <method name="QueryAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryFirstAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryFirstOrDefaultAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QuerySingleAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QuerySingleOrDefaultAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryAsync&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryFirstAsync&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryFirstOrDefaultAsync&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QuerySingleAsync&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QuerySingleOrDefaultAsync&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryFirstAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryFirstOrDefaultAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QuerySingleAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QuerySingleOrDefaultAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="QueryFirstAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="QueryFirstOrDefaultAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="QuerySingleAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="QuerySingleOrDefaultAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="QueryAsync&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryFirstAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryFirstAsync&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryFirstOrDefaultAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryFirstOrDefaultAsync&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QuerySingleAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QuerySingleAsync&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QuerySingleOrDefaultAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QuerySingleOrDefaultAsync&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ExecuteReaderWithFlagsFallbackAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="TryOpenAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="TrySetupAsyncCommand" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="ExecuteAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ExecuteAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="QueryAsync&lt;TFirst, TSecond, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="QueryAsync&lt;TFirst, TSecond, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryAsync&lt;TFirst, TSecond, TThird, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="QueryAsync&lt;TFirst, TSecond, TThird, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryAsync&lt;TFirst, TSecond, TThird, TFourth, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="QueryAsync&lt;TFirst, TSecond, TThird, TFourth, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryAsync&lt;TFirst, TSecond, TThird, TFourth, TFifth, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="QueryAsync&lt;TFirst, TSecond, TThird, TFourth, TFifth, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryAsync&lt;TFirst, TSecond, TThird, TFourth, TFifth, TSixth, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="QueryAsync&lt;TFirst, TSecond, TThird, TFourth, TFifth, TSixth, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryAsync&lt;TFirst, TSecond, TThird, TFourth, TFifth, TSixth, TSeventh, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="QueryAsync&lt;TFirst, TSecond, TThird, TFourth, TFifth, TSixth, TSeventh, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryAsync&lt;TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="QueryMultipleAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ExecuteReaderAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ExecuteReaderAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ExecuteReaderAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ExecuteReaderAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ExecuteReaderAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ExecuteReaderAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ExecuteScalarAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ExecuteScalarAsync&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ExecuteScalarAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ExecuteScalarAsync&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="22">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="24">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="20">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="10">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="10">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="12">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper" filename="/_/Dapper/SqlMapper.cs" line-rate="1" branch-rate="1" complexity="1028">
+          <methods>
+            <method name="GetColumnHash" signature="(...)" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+            <method name="OnQueryCachePurged" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="SetQueryCache" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="CollectCacheGarbage" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="TryGetQueryCache" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="PurgeQueryCache" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="PurgeQueryCacheByType" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="GetCachedSQLCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetCachedSQL" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="GetHashCollissions" signature="()" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ResetTypeHandlers" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ResetTypeHandlers" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="AddTypeMap" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="RemoveTypeMap" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="AddTypeHandler" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="HasTypeHandler" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="AddTypeHandlerImpl" signature="(...)" line-rate="1" branch-rate="1" complexity="20">
+              <lines />
+            </method>
+            <method name="AddTypeHandler&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetDbType" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="LookupDbType" signature="(...)" line-rate="1" branch-rate="1" complexity="34">
+              <lines />
+            </method>
+            <method name="AsList&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="Execute" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Execute" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ExecuteScalar" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ExecuteScalar&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ExecuteScalar" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ExecuteScalar&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetMultiExec" signature="(...)" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+            <method name="ExecuteImpl" signature="(...)" line-rate="1" branch-rate="1" complexity="16">
+              <lines />
+            </method>
+            <method name="ExecuteReader" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ExecuteReader" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ExecuteReader" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Query" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryFirst" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryFirstOrDefault" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QuerySingle" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QuerySingleOrDefault" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Query&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="QueryFirst&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryFirstOrDefault&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QuerySingle&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QuerySingleOrDefault&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Query" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name="QueryFirst" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="QueryFirstOrDefault" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="QuerySingle" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="QuerySingleOrDefault" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="Query&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="QueryFirst&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryFirstOrDefault&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QuerySingle&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QuerySingleOrDefault&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryMultiple" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryMultiple" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryMultipleImpl" signature="(...)" line-rate="1" branch-rate="1" complexity="14">
+              <lines />
+            </method>
+            <method name="ExecuteReaderWithFlagsFallback" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="ThrowMultipleRows" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ThrowZeroRows" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="QueryRowImpl&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="40">
+              <lines />
+            </method>
+            <method name="Query&lt;TFirst, TSecond, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Query&lt;TFirst, TSecond, TThird, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Query&lt;TFirst, TSecond, TThird, TFourth, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Query&lt;TFirst, TSecond, TThird, TFourth, TFifth, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Query&lt;TFirst, TSecond, TThird, TFourth, TFifth, TSixth, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Query&lt;TFirst, TSecond, TThird, TFourth, TFifth, TSixth, TSeventh, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Query&lt;TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="MultiMap&lt;TFirst, TSecond, TThird, TFourth, TFifth, TSixth, TSeventh, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="GetBehavior" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="GenerateMapper&lt;TFirst, TSecond, TThird, TFourth, TFifth, TSixth, TSeventh, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="7">
+              <lines />
+            </method>
+            <method name="GenerateMapper&lt;TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GenerateDeserializers" signature="(...)" line-rate="1" branch-rate="1" complexity="22">
+              <lines />
+            </method>
+            <method name="GetNextSplitDynamic" signature="(...)" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+            <method name="GetNextSplit" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name="GetCacheInfo" signature="(...)" line-rate="1" branch-rate="1" complexity="18">
+              <lines />
+            </method>
+            <method name="ShouldPassByPosition" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="PassByPosition" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name="GetDeserializer" signature="(...)" line-rate="1" branch-rate="1" complexity="20">
+              <lines />
+            </method>
+            <method name="GetHandlerDeserializer" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="MultiMapException" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="GetDapperRowDeserializer" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="ReadChar" signature="(...)" line-rate="1" branch-rate="1" complexity="10">
+              <lines />
+            </method>
+            <method name="ReadNullableChar" signature="(...)" line-rate="1" branch-rate="1" complexity="10">
+              <lines />
+            </method>
+            <method name="FindOrAddParameter" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="GetListPaddingExtraCount" signature="(...)" line-rate="1" branch-rate="1" complexity="14">
+              <lines />
+            </method>
+            <method name="GetInListRegex" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="PackListParameters" signature="(...)" line-rate="1" branch-rate="1" complexity="48">
+              <lines />
+            </method>
+            <method name="TryStringSplit" signature="(...)" line-rate="1" branch-rate="1" complexity="12">
+              <lines />
+            </method>
+            <method name="TryStringSplit&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="10">
+              <lines />
+            </method>
+            <method name="SanitizeParameterValue" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name="FilterParameters" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="ReplaceLiterals" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="Format" signature="(...)" line-rate="1" branch-rate="1" complexity="27">
+              <lines />
+            </method>
+            <method name="ReplaceLiterals" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="GetLiteralTokens" signature="(...)" line-rate="1" branch-rate="1" complexity="10">
+              <lines />
+            </method>
+            <method name="CreateParamInfoGenerator" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="IsValueTuple" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="CreateParamInfoGenerator" signature="(...)" line-rate="1" branch-rate="1" complexity="131">
+              <lines />
+            </method>
+            <method name="GetToString" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="ExecuteCommand" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name="ExecuteScalarImpl&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+            <method name="ExecuteReaderImpl" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name="GetParameterReader" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name="GetStructDeserializer" signature="(...)" line-rate="1" branch-rate="1" complexity="10">
+              <lines />
+            </method>
+            <method name="Parse&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="18">
+              <lines />
+            </method>
+            <method name="GetTypeMap" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name="SetTypeMap" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name="GetTypeDeserializer" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetTempLocal" signature="(...)" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+            <method name="GetTypeDeserializerImpl" signature="(...)" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+            <method name="GenerateValueTupleDeserializer" signature="(...)" line-rate="1" branch-rate="1" complexity="22">
+              <lines />
+            </method>
+            <method name="GenerateDeserializerFromMap" signature="(...)" line-rate="1" branch-rate="1" complexity="60">
+              <lines />
+            </method>
+            <method name="LoadDefaultValue" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="LoadReaderValueOrBranchToDBNullLabel" signature="(...)" line-rate="1" branch-rate="1" complexity="36">
+              <lines />
+            </method>
+            <method name="FlexibleConvertBoxedFromHeadOfStack" signature="(...)" line-rate="1" branch-rate="1" complexity="31">
+              <lines />
+            </method>
+            <method name="GetOperator" signature="(...)" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+            <method name="ResolveOperator" signature="(...)" line-rate="1" branch-rate="1" complexity="10">
+              <lines />
+            </method>
+            <method name="ThrowDataException" signature="(...)" line-rate="1" branch-rate="1" complexity="10">
+              <lines />
+            </method>
+            <method name="EmitInt32" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="get_ConnectionStringComparer" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_ConnectionStringComparer" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="AsTableValuedParameter" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="SetTypeName" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="GetTypeName" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="AsTableValuedParameter&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetStringBuilder" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="__ToStringRecycle" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="Compare" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="22">
+              <lines />
+            </method>
+            <method name="&lt;&gt;m__Finally1" signature="()" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="26">
+              <lines />
+            </method>
+            <method name="&lt;&gt;m__Finally1" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="26">
+              <lines />
+            </method>
+            <method name="&lt;&gt;m__Finally1" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper" filename="/_/Dapper/SqlMapper.IDataReader.cs" line-rate="1" branch-rate="1" complexity="23">
+          <methods>
+            <method name="GetRowParser" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetRowParser&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="10">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.&lt;&gt;c__DisplayClass158_0&lt;TFirst, TSecond, TThird, TFourth, TFifth, TSixth, TSeventh, TReturn&gt;" filename="/_/Dapper/SqlMapper.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods />
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.&lt;&gt;c__DisplayClass159_0&lt;TReturn&gt;" filename="/_/Dapper/SqlMapper.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods />
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.&lt;&gt;c__DisplayClass177_0&lt;T&gt;" filename="/_/Dapper/SqlMapper.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods />
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.&lt;&gt;c__DisplayClass242_0&lt;T&gt;" filename="/_/Dapper/SqlMapper.IDataReader.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods />
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.&lt;ExecuteReaderSync&gt;d__55&lt;T&gt;" filename="/_/Dapper/SqlMapper.Async.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.&lt;ExecuteScalarImplAsync&gt;d__69&lt;T&gt;" filename="/_/Dapper/SqlMapper.Async.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.&lt;MultiMapAsync&gt;d__52&lt;TFirst, TSecond, TThird, TFourth, TFifth, TSixth, TSeventh, TReturn&gt;" filename="/_/Dapper/SqlMapper.Async.cs" line-rate="1" branch-rate="1" complexity="10">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="10">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.&lt;MultiMapAsync&gt;d__54&lt;TReturn&gt;" filename="/_/Dapper/SqlMapper.Async.cs" line-rate="1" branch-rate="1" complexity="10">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="10">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.&lt;MultiMapImpl&gt;d__155&lt;TFirst, TSecond, TThird, TFourth, TFifth, TSixth, TSeventh, TReturn&gt;" filename="/_/Dapper/SqlMapper.cs" line-rate="1" branch-rate="1" complexity="32">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="26">
+              <lines />
+            </method>
+            <method name="&lt;&gt;m__Finally1" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.&lt;MultiMapImpl&gt;d__157&lt;TReturn&gt;" filename="/_/Dapper/SqlMapper.cs" line-rate="1" branch-rate="1" complexity="32">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="26">
+              <lines />
+            </method>
+            <method name="&lt;&gt;m__Finally1" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.&lt;Parse&gt;d__238&lt;T&gt;" filename="/_/Dapper/SqlMapper.IDataReader.cs" line-rate="1" branch-rate="1" complexity="10">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="10">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.&lt;QueryAsync&gt;d__33&lt;T&gt;" filename="/_/Dapper/SqlMapper.Async.cs" line-rate="1" branch-rate="1" complexity="22">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="22">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.&lt;QueryImpl&gt;d__140&lt;T&gt;" filename="/_/Dapper/SqlMapper.cs" line-rate="1" branch-rate="1" complexity="30">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="22">
+              <lines />
+            </method>
+            <method name="&lt;&gt;m__Finally1" signature="()" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.&lt;QueryRowAsync&gt;d__34&lt;T&gt;" filename="/_/Dapper/SqlMapper.Async.cs" line-rate="1" branch-rate="1" complexity="24">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="24">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.AsyncExecState" filename="/_/Dapper/SqlMapper.Async.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.CacheInfo" filename="/_/Dapper/SqlMapper.CacheInfo.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="get_Deserializer" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_Deserializer" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_OtherDeserializers" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_OtherDeserializers" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_ParamReader" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_ParamReader" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetHitCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="RecordHit" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.DapperRow" filename="/_/Dapper/SqlMapper.DapperRow.cs" line-rate="1" branch-rate="1" complexity="83">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;.get_Count" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="TryGetValue" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="TryGetValue" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name="ToString" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="System.Collections.IEnumerable.GetEnumerator" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;.Add" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;.Clear" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;.Contains" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;.CopyTo" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;.Remove" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;.get_IsReadOnly" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;.ContainsKey" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;.Add" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;.Remove" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Remove" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;.get_Item" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;.set_Item" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="SetValue" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="SetValue" signature="(...)" line-rate="1" branch-rate="1" complexity="10">
+              <lines />
+            </method>
+            <method name="SetValue" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;.get_Keys" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;.get_Values" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="System.Collections.Generic.IReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;.get_Count" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;.ContainsKey" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;.get_Item" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;.get_Keys" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;.get_Values" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.DapperRow" filename="/_/Dapper/SqlMapper.DapperRowMetaObject.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="System.Dynamic.IDynamicMetaObjectProvider.GetMetaObject" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.DapperRow.DapperRowTypeDescriptionProvider" filename="/_/Dapper/SqlMapper.DapperRow.Descriptor.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="GetExtendedTypeDescriptor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetTypeDescriptor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.DapperRow.DapperRowTypeDescriptor" filename="/_/Dapper/SqlMapper.DapperRow.Descriptor.cs" line-rate="1" branch-rate="1" complexity="30">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.ComponentModel.ICustomTypeDescriptor.GetAttributes" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.ComponentModel.ICustomTypeDescriptor.GetClassName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.ComponentModel.ICustomTypeDescriptor.GetComponentName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.ComponentModel.ICustomTypeDescriptor.GetConverter" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.ComponentModel.ICustomTypeDescriptor.GetEditor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.ComponentModel.ICustomTypeDescriptor.GetEvents" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.ComponentModel.ICustomTypeDescriptor.GetEvents" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetProperties" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="GetProperties" signature="(...)" line-rate="1" branch-rate="1" complexity="14">
+              <lines />
+            </method>
+            <method name="System.ComponentModel.ICustomTypeDescriptor.GetProperties" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.ComponentModel.ICustomTypeDescriptor.GetProperties" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.DapperRow.DeadValue" filename="/_/Dapper/SqlMapper.DapperRow.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.DapperRow.RowBoundPropertyDescriptor" filename="/_/Dapper/SqlMapper.DapperRow.Descriptor.cs" line-rate="1" branch-rate="1" complexity="13">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="CanResetValue" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ResetValue" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_IsReadOnly" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ShouldSerializeValue" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_ComponentType" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_PropertyType" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetValue" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="SetValue" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.DapperRowMetaObject" filename="/_/Dapper/SqlMapper.DapperRowMetaObject.cs" line-rate="1" branch-rate="1" complexity="11">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="CallMethod" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="BindGetMember" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="BindInvokeMember" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="BindSetMember" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetDynamicMemberNames" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.DapperTable" filename="/_/Dapper/SqlMapper.DapperTable.cs" line-rate="1" branch-rate="1" complexity="18">
+          <methods>
+            <method name="get_FieldNames" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name="IndexOfName" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="AddField" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="FieldExists" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="get_FieldCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.DeserializerState" filename="/_/Dapper/SqlMapper.DeserializerState.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.GridReader" filename="/_/Dapper/SqlMapper.GridReader.Async.cs" line-rate="1" branch-rate="1" complexity="55">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadFirstAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadFirstOrDefaultAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadSingleAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadSingleOrDefaultAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="ReadFirstAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="ReadFirstOrDefaultAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="ReadSingleAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="ReadSingleOrDefaultAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="ReadAsync&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadFirstAsync&lt;T&gt;" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadFirstOrDefaultAsync&lt;T&gt;" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadSingleAsync&lt;T&gt;" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadSingleOrDefaultAsync&lt;T&gt;" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadAsyncImpl&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="14">
+              <lines />
+            </method>
+            <method name="ReadRowAsyncImpl&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="12">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.GridReader" filename="/_/Dapper/SqlMapper.GridReader.cs" line-rate="1" branch-rate="1" complexity="105">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Read" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadFirst" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadFirstOrDefault" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadSingle" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadSingleOrDefault" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Read&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadFirst&lt;T&gt;" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadFirstOrDefault&lt;T&gt;" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadSingle&lt;T&gt;" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ReadSingleOrDefault&lt;T&gt;" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Read" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="ReadFirst" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="ReadFirstOrDefault" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="ReadSingle" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="ReadSingleOrDefault" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="ReadImpl&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="10">
+              <lines />
+            </method>
+            <method name="ReadRow&lt;T&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="26">
+              <lines />
+            </method>
+            <method name="Read&lt;TFirst, TSecond, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="Read&lt;TFirst, TSecond, TThird, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="Read&lt;TFirst, TSecond, TThird, TFourth, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="Read&lt;TFirst, TSecond, TThird, TFourth, TFifth, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="Read&lt;TFirst, TSecond, TThird, TFourth, TFifth, TSixth, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="Read&lt;TFirst, TSecond, TThird, TFourth, TFifth, TSixth, TSeventh, TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="Read&lt;TReturn&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="get_IsConsumed" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_IsConsumed" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Command" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_Command" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="NextResult" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="Dispose" signature="()" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="&lt;&gt;m__Finally1" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="&lt;&gt;m__Finally1" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="10">
+              <lines />
+            </method>
+            <method name="&lt;&gt;m__Finally1" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.GridReader.&lt;MultiReadInternal&gt;d__43&lt;TFirst, TSecond, TThird, TFourth, TFifth, TSixth, TSeventh, TReturn&gt;" filename="/_/Dapper/SqlMapper.GridReader.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="&lt;&gt;m__Finally1" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.GridReader.&lt;MultiReadInternal&gt;d__44&lt;TReturn&gt;" filename="/_/Dapper/SqlMapper.GridReader.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="&lt;&gt;m__Finally1" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.GridReader.&lt;ReadBufferedAsync&gt;d__21&lt;T&gt;" filename="/_/Dapper/SqlMapper.GridReader.Async.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.GridReader.&lt;ReadDeferred&gt;d__52&lt;T&gt;" filename="/_/Dapper/SqlMapper.GridReader.cs" line-rate="1" branch-rate="1" complexity="12">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="10">
+              <lines />
+            </method>
+            <method name="&lt;&gt;m__Finally1" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.GridReader.&lt;ReadRowAsyncImplViaDbReader&gt;d__20&lt;T&gt;" filename="/_/Dapper/SqlMapper.GridReader.Async.cs" line-rate="1" branch-rate="1" complexity="12">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="12">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.Identity" filename="/_/Dapper/SqlMapper.Identity.cs" line-rate="1" branch-rate="1" complexity="47">
+          <methods>
+            <method name="get_TypeCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetType" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ForGrid&lt;TFirst, TSecond, TThird, TFourth, TFifth, TSixth, TSeventh&gt;" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ForGrid" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ForGrid" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="ForDynamicParameters" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+            <method name="Equals" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetHashCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ToString" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Equals" signature="(...)" line-rate="1" branch-rate="1" complexity="20">
+              <lines />
+            </method>
+            <method name="TypesEqual" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.Identity&lt;TFirst, TSecond, TThird, TFourth, TFifth, TSixth, TSeventh&gt;" filename="/_/Dapper/SqlMapper.Identity.cs" line-rate="1" branch-rate="1" complexity="17">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="CountNonTrivial" signature="(...)" line-rate="1" branch-rate="1" complexity="12">
+              <lines />
+            </method>
+            <method name="get_TypeCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetType" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.IdentityWithTypes" filename="/_/Dapper/SqlMapper.Identity.cs" line-rate="1" branch-rate="1" complexity="12">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="get_TypeCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetType" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="HashTypes" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.Link&lt;TKey, TValue&gt;" filename="/_/Dapper/SqlMapper.Link.cs" line-rate="1" branch-rate="1" complexity="12">
+          <methods>
+            <method name="TryGet" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="TryAdd" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Key" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Value" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Tail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.LiteralToken" filename="/_/Dapper/SqlMapper.LiteralToken.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Token" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_Member" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.PropertyInfoByNameComparer" filename="/_/Dapper/SqlMapper.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Compare" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.Settings" filename="/_/Dapper/SqlMapper.Settings.cs" line-rate="1" branch-rate="1" complexity="26">
+          <methods>
+            <method name="get_AllowedCommandBehaviors" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_AllowedCommandBehaviors" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="SetAllowedCommandBehaviors" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="get_UseSingleResultOptimization" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_UseSingleResultOptimization" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_UseSingleRowOptimization" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_UseSingleRowOptimization" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="DisableCommandBehaviorOptimizations" signature="(...)" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="SetDefaults" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_CommandTimeout" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_CommandTimeout" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_ApplyNullValues" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_ApplyNullValues" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_PadListExpansions" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_PadListExpansions" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="get_InListStringSplitCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="set_InListStringSplitCount" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.StringTypeHandler&lt;T&gt;" filename="/_/Dapper/SqlMapper.TypeHandler.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="SetValue" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="Parse" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.TypeDeserializerCache" filename="/_/Dapper/SqlMapper.TypeDeserializerCache.cs" line-rate="1" branch-rate="1" complexity="67">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Purge" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Purge" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="GetReader" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="GetReader" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="GetHashCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ToString" signature="()" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+            <method name="Equals" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="Equals" signature="(...)" line-rate="1" branch-rate="1" complexity="38">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.TypeDeserializerCache.DeserializerKey" filename="/_/Dapper/SqlMapper.TypeDeserializerCache.cs" line-rate="1" branch-rate="1" complexity="53">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+            <method name="GetHashCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ToString" signature="()" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+            <method name="Equals" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="Equals" signature="(...)" line-rate="1" branch-rate="1" complexity="38">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.TypeHandler&lt;T&gt;" filename="/_/Dapper/SqlMapper.TypeHandler.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="Dapper.SqlMapper.ITypeHandler.SetValue" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="Dapper.SqlMapper.ITypeHandler.Parse" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.TypeHandlerCache&lt;T&gt;" filename="/_/Dapper/SqlMapper.TypeHandlerCache.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="Parse" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="SetValue" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="SetHandler" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.SqlMapper.UdtTypeHandler" filename="/_/Dapper/UdtTypeHandler.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="Dapper.SqlMapper.ITypeHandler.Parse" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="Dapper.SqlMapper.ITypeHandler.SetValue" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.StructuredHelper" filename="/_/Dapper/SqlDataRecordListTVPParameter.cs" line-rate="1" branch-rate="1" complexity="21">
+          <methods>
+            <method name="GetUDT" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="GetTVP" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="SlowGetHelper" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines />
+            </method>
+            <method name="CreateFor" signature="(...)" line-rate="1" branch-rate="1" complexity="12">
+              <lines />
+            </method>
+            <method name="ConfigureUDT" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="ConfigureTVP" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.TableValuedParameter" filename="/_/Dapper/TableValuedParameter.cs" line-rate="1" branch-rate="1" complexity="9">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Dapper.SqlMapper.ICustomQueryParameter.AddParameter" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Set" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.TypeExtensions" filename="/_/Dapper/TypeExtensions.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="GetPublicInstanceMethod" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.WrappedReader" filename="/_/Dapper/WrappedReader.cs" line-rate="1" branch-rate="1" complexity="10">
+          <methods>
+            <method name="Create" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines />
+            </method>
+            <method name="Create" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.XDocumentHandler" filename="/_/Dapper/XmlHandlers.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Parse" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Format" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.XElementHandler" filename="/_/Dapper/XmlHandlers.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Parse" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Format" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.XmlDocumentHandler" filename="/_/Dapper/XmlHandlers.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Parse" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Format" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Dapper.XmlTypeHandler&lt;T&gt;" filename="/_/Dapper/XmlHandlers.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="SetValue" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+      </classes>
+    </package>
+    <package name="Questao5" line-rate="0.505263157894737" branch-rate="0.333333333333333" complexity="92">
+      <classes>
+        <class name="Program" filename="D:\Stefanini\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3 (2) 1 (4)\Questao5\Program.cs" line-rate="0" branch-rate="0" complexity="6">
+          <methods>
+            <method name="&lt;Main&gt;$" signature="(...)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="9" hits="0" branch="false" />
+                <line number="12" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+                <line number="27" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="28" hits="0" branch="false" />
+                <line number="29" hits="0" branch="false" />
+                <line number="30" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="35" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="36" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+                <line number="38" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="39" hits="0" branch="false" />
+                <line number="40" hits="0" branch="false" />
+                <line number="41" hits="0" branch="false" />
+                <line number="43" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="47" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+                <line number="54" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="27" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="28" hits="0" branch="false" />
+            <line number="29" hits="0" branch="false" />
+            <line number="30" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="35" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="36" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="38" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="39" hits="0" branch="false" />
+            <line number="40" hits="0" branch="false" />
+            <line number="41" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="47" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="54" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Questao5.Application.Commands.Requests.CriarMovimentacaoCommand" filename="D:\Stefanini\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3 (2) 1 (4)\Questao5\Application\Commands\Requests\CriarMovimentacaoCommand.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="get_Idempotencia" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Idempotencia" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_IdContaCorrente" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_IdContaCorrente" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Valor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Valor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Tipo" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Tipo" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="1" branch="false" />
+            <line number="10" hits="1" branch="false" />
+            <line number="11" hits="1" branch="false" />
+            <line number="12" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Questao5.Application.Commands.Responses.CriarMovimentacaoResponse" filename="D:\Stefanini\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3 (2) 1 (4)\Questao5\Application\Commands\Responses\CriarMovimentacaoResponse.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_IdMovimento" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_IdMovimento" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Questao5.Application.Handlers.CriarMovimentacaoCommandHandler" filename="D:\Stefanini\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3 (2) 1 (4)\Questao5\Application\Handlers\CriarMovimentacaoCommandHandler.cs" line-rate="0.888888888888889" branch-rate="0.583333333333333" complexity="13">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="MoveNext" signature="()" line-rate="0.862068965517241" branch-rate="0.583333333333333" complexity="12">
+              <lines>
+                <line number="27" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="31" hits="0" branch="false" />
+                <line number="34" hits="1" branch="true" condition-coverage="50% (2/4)" />
+                <line number="35" hits="0" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="39" hits="1" branch="false" />
+                <line number="41" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="42" hits="0" branch="false" />
+                <line number="44" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="45" hits="0" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="57" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="62" hits="1" branch="false" />
+                <line number="63" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+                <line number="65" hits="1" branch="false" />
+                <line number="67" hits="1" branch="false" />
+                <line number="68" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="31" hits="0" branch="false" />
+            <line number="34" hits="1" branch="true" condition-coverage="50% (2/4)" />
+            <line number="35" hits="0" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="39" hits="1" branch="false" />
+            <line number="41" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="42" hits="0" branch="false" />
+            <line number="44" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="45" hits="0" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="62" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="65" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="68" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Questao5.Application.Handlers.ObterSaldoQueryHandler" filename="D:\Stefanini\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3 (2) 1 (4)\Questao5\Application\Handlers\ObterSaldoQueryHandler.cs" line-rate="0.95" branch-rate="0.75" complexity="5">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="MoveNext" signature="()" line-rate="0.9375" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="23" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="24" hits="1" branch="false" />
+                <line number="26" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="27" hits="0" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="23" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="24" hits="1" branch="false" />
+            <line number="26" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="27" hits="0" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Questao5.Application.Queries.Requests.ObterSaldoQuery" filename="D:\Stefanini\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3 (2) 1 (4)\Questao5\Application\Queries\Requests\ObterSaldoQuery.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_IdContaCorrente" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_IdContaCorrente" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="false" />
+                <line number="12" hits="1" branch="false" />
+                <line number="13" hits="1" branch="false" />
+                <line number="14" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="1" branch="false" />
+            <line number="11" hits="1" branch="false" />
+            <line number="12" hits="1" branch="false" />
+            <line number="13" hits="1" branch="false" />
+            <line number="14" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Questao5.Application.Queries.Responses.ObterSaldoResponse" filename="D:\Stefanini\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3 (2) 1 (4)\Questao5\Application\Queries\Responses\ObterSaldoResponse.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="get_Numero" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Numero" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Nome" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Nome" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_DataHoraConsulta" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_DataHoraConsulta" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Saldo" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Saldo" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="1" branch="false" />
+            <line number="6" hits="1" branch="false" />
+            <line number="7" hits="1" branch="false" />
+            <line number="8" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Questao5.Domain.Entities.ContaCorrente" filename="D:\Stefanini\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3 (2) 1 (4)\Questao5\Domain\Entities\ContaCorrente.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Id" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Numero" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Numero" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Nome" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Nome" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Ativo" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Ativo" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="1" branch="false" />
+            <line number="6" hits="1" branch="false" />
+            <line number="7" hits="1" branch="false" />
+            <line number="8" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Questao5.Domain.Entities.Movimento" filename="D:\Stefanini\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3 (2) 1 (4)\Questao5\Domain\Entities\Movimento.cs" line-rate="1" branch-rate="1" complexity="10">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Id" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_IdContaCorrente" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_IdContaCorrente" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Data" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Data" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Tipo" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Tipo" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Valor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Valor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="1" branch="false" />
+            <line number="8" hits="1" branch="false" />
+            <line number="9" hits="1" branch="false" />
+            <line number="10" hits="1" branch="false" />
+            <line number="11" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Questao5.Infrastructure.Database.CommandStore.Responses.MovimentoCommandStore" filename="D:\Stefanini\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3 (2) 1 (4)\Questao5\Infrastructure\Database\CommandStore\Responses\MovimentoCommandStore.cs" line-rate="0" branch-rate="1" complexity="4">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="false" />
+                <line number="13" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+                <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+                <line number="28" hits="0" branch="false" />
+                <line number="29" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="41" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+                <line number="43" hits="0" branch="false" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="46" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="0" branch="false" />
+                <line number="33" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="29" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="41" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="46" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Questao5.Infrastructure.Database.QueryStore.Responses.ContaQueryStore" filename="D:\Stefanini\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3 (2) 1 (4)\Questao5\Infrastructure\Database\QueryStore\Responses\ContaQueryStore.cs" line-rate="0" branch-rate="1" complexity="4">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="false" />
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="0" branch="false" />
+                <line number="29" hits="0" branch="false" />
+                <line number="30" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="29" hits="0" branch="false" />
+            <line number="30" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Questao5.Infrastructure.Services.Controllers.MovimentacaoContaController" filename="D:\Stefanini\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3 (2) 1 (4)\Questao5\Infrastructure\Services\Controllers\MovimentacaoContaController.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="0" branch="false" />
+                <line number="30" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="30" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Questao5.Infrastructure.Services.Controllers.SaldoContaCorrenteController" filename="D:\Stefanini\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3 (2) 1 (4)\Questao5\Infrastructure\Services\Controllers\SaldoContaCorrenteController.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="0" branch="false" />
+                <line number="29" hits="0" branch="false" />
+                <line number="30" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="27" hits="0" branch="false" />
+            <line number="29" hits="0" branch="false" />
+            <line number="30" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Questao5.Infrastructure.Sqlite.DatabaseBootstrap" filename="D:\Stefanini\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3 (2) 1 (4)\Questao5\Infrastructure\Sqlite\DatabaseBootstrap.cs" line-rate="0" branch-rate="0" complexity="9">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="false" />
+                <line number="11" hits="0" branch="false" />
+                <line number="12" hits="0" branch="false" />
+                <line number="13" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="Setup" signature="()" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+                <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="true" condition-coverage="0% (0/8)" />
+                <line number="22" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+                <line number="27" hits="0" branch="false" />
+                <line number="28" hits="0" branch="false" />
+                <line number="29" hits="0" branch="false" />
+                <line number="30" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="33" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+                <line number="39" hits="0" branch="false" />
+                <line number="40" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+                <line number="43" hits="0" branch="false" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="47" hits="0" branch="false" />
+                <line number="48" hits="0" branch="false" />
+                <line number="49" hits="0" branch="false" />
+                <line number="50" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+                <line number="52" hits="0" branch="false" />
+                <line number="53" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="0" branch="false" />
+            <line number="11" hits="0" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="true" condition-coverage="0% (0/8)" />
+            <line number="22" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="27" hits="0" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="29" hits="0" branch="false" />
+            <line number="30" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="39" hits="0" branch="false" />
+            <line number="40" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="47" hits="0" branch="false" />
+            <line number="48" hits="0" branch="false" />
+            <line number="49" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="52" hits="0" branch="false" />
+            <line number="53" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Questao5.Infrastructure.Sqlite.DatabaseConfig" filename="D:\Stefanini\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3 (2) 1 (4)\Questao5\Infrastructure\Sqlite\DatabaseConfig.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="set_Name" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Questao5.Tests.Application.Handlers.CriarMovimentacaoCommandHandlerTests" filename="D:\Stefanini\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3 (2) 1 (4)\Questao5\Tests\Application\Handlers\CriarMovimentacaoCommandHandlerTests.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="58" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+                <line number="61" hits="1" branch="false" />
+                <line number="62" hits="1" branch="false" />
+                <line number="63" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+                <line number="65" hits="1" branch="false" />
+                <line number="67" hits="1" branch="false" />
+                <line number="68" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+                <line number="71" hits="1" branch="false" />
+                <line number="72" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="62" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="65" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="68" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="71" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Questao5.Tests.Application.Handlers.ObterSaldoQueryHandlerTests" filename="D:\Stefanini\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3 (2) 1 (4)\Questao5\Tests\Application\Handlers\ObterSaldoQueryHandlerTests.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

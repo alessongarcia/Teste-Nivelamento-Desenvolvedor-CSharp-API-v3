@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hotspots>
+  <Hotspot>
+    <Assembly>Dapper</Assembly>
+    <Class>Dapper.DynamicParameters</Class>
+    <MethodName>AddParameters(...)</MethodName>
+    <ShortName />
+    <Line></Line>
+    <FileIndex>0</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>60</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+  <Hotspot>
+    <Assembly>Dapper</Assembly>
+    <Class>Dapper.SqlMapper</Class>
+    <MethodName>GenerateDeserializerFromMap(...)</MethodName>
+    <ShortName />
+    <Line></Line>
+    <FileIndex>1</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>60</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+  <Hotspot>
+    <Assembly>Dapper</Assembly>
+    <Class>Dapper.SqlMapper</Class>
+    <MethodName>PackListParameters(...)</MethodName>
+    <ShortName />
+    <Line></Line>
+    <FileIndex>1</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>48</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+  <Hotspot>
+    <Assembly>Dapper</Assembly>
+    <Class>Dapper.DynamicParameters</Class>
+    <MethodName>Output&lt;T&gt;(...)</MethodName>
+    <ShortName />
+    <Line></Line>
+    <FileIndex>0</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>40</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+  <Hotspot>
+    <Assembly>Dapper</Assembly>
+    <Class>Dapper.SqlMapper</Class>
+    <MethodName>QueryRowImpl&lt;T&gt;(...)</MethodName>
+    <ShortName />
+    <Line></Line>
+    <FileIndex>1</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>40</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+  <Hotspot>
+    <Assembly>Dapper</Assembly>
+    <Class>Dapper.DefaultTypeMap</Class>
+    <MethodName>FindConstructor(...)</MethodName>
+    <ShortName />
+    <Line></Line>
+    <FileIndex>0</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>38</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+  <Hotspot>
+    <Assembly>Dapper</Assembly>
+    <Class>Dapper.SqlMapper</Class>
+    <MethodName>LoadReaderValueOrBranchToDBNullLabel(...)</MethodName>
+    <ShortName />
+    <Line></Line>
+    <FileIndex>1</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>36</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+  <Hotspot>
+    <Assembly>Dapper</Assembly>
+    <Class>Dapper.SqlMapper</Class>
+    <MethodName>LookupDbType(...)</MethodName>
+    <ShortName />
+    <Line></Line>
+    <FileIndex>1</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>34</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+  <Hotspot>
+    <Assembly>Dapper</Assembly>
+    <Class>Dapper.SqlMapper</Class>
+    <MethodName>FlexibleConvertBoxedFromHeadOfStack(...)</MethodName>
+    <ShortName />
+    <Line></Line>
+    <FileIndex>1</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>31</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+</Hotspots>

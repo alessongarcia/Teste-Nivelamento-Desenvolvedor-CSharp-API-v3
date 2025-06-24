@@ -1,0 +1,88 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "API Banco",
+    "version": "v1"
+  },
+  "paths": {
+    "/MovimentacaoConta/movimentacao": {
+      "post": {
+        "tags": [
+          "MovimentacaoConta"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CriarMovimentacaoCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CriarMovimentacaoCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CriarMovimentacaoCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/SaldoContaCorrente/{id}/saldo": {
+      "get": {
+        "tags": [
+          "SaldoContaCorrente"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CriarMovimentacaoCommand": {
+        "type": "object",
+        "properties": {
+          "idempotencia": {
+            "type": "string",
+            "nullable": true
+          },
+          "idContaCorrente": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "valor": {
+            "type": "number",
+            "format": "double"
+          },
+          "tipo": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
