@@ -1,7 +1,9 @@
-using Questao5.Application.Commands.Requests;
-using Questao5.Application.Queries.Requests;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Questao5.Application.Commands.Requests;
+using Questao5.Application.Commands.Responses;
+using Questao5.Swagger.Examples;
+using Swashbuckle.AspNetCore.Filters;
 
 namespace Questao5.Infrastructure.Services.Controllers
 {
@@ -24,6 +26,9 @@ namespace Questao5.Infrastructure.Services.Controllers
         /// <response code="200">Movimentação realizada com sucesso</response>
         /// <response code="400">Erro de validação</response>
         [HttpPost("movimentacao")]
+        [SwaggerRequestExample(typeof(CriarMovimentacaoCommand), typeof(CriarMovimentacaoCommandExample))]
+        [ProducesResponseType(typeof(CriarMovimentacaoResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ValidationProblemDetails), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> MovimentarConta([FromBody] CriarMovimentacaoCommand command)
         {
             try

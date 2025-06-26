@@ -4,6 +4,8 @@ using Questao5.Infrastructure.Database.CommandStore.Responses;
 using Questao5.Infrastructure.Database.QueryStore.Requests;
 using Questao5.Infrastructure.Database.QueryStore.Responses;
 using Questao5.Infrastructure.Sqlite;
+using Questao5.Swagger.Examples;
+using Swashbuckle.AspNetCore.Filters;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -27,7 +29,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new() { Title = "API Banco", Version = "v1" });
+    options.ExampleFilters();
 });
+builder.Services.AddSwaggerExamplesFromAssemblyOf<CriarMovimentacaoCommandExample>();
+builder.Services.AddSwaggerExamplesFromAssemblyOf<ObterSaldoResponseExample>();
 
 var app = builder.Build();
 

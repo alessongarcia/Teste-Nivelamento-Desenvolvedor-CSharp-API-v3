@@ -1,6 +1,9 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Questao5.Application.Queries.Requests;
+using Questao5.Application.Queries.Responses;
+using Questao5.Swagger.Examples;
+using Swashbuckle.AspNetCore.Filters;
 
 namespace Questao5.Infrastructure.Services.Controllers
 {
@@ -23,6 +26,9 @@ namespace Questao5.Infrastructure.Services.Controllers
         /// <response code="200">Consulta realizada com sucesso</response>
         /// <response code="400">Conta inválida ou inativa</response>
         [HttpGet("{id}/saldo")]
+        [SwaggerResponseExample(StatusCodes.Status200OK, typeof(ObterSaldoResponseExample))]
+        [ProducesResponseType(typeof(ObterSaldoResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ValidationProblemDetails), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> ConsultarSaldo([FromRoute] Guid id)
         {
             try
